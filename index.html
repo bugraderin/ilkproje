@@ -1,20 +1,34 @@
 <html>
   <head>
     <title>anasayfa</title>
+      <style>
+      .container{max-width: 1200px /* maks genişlik*/;
+      margin: 0 auto; /* üst ve alttan boşluk 0 , sol ve sağdan otomatik ortalar*/ }
+
+      header{ background-color: lightblue;
+      padding: 1rem;}
+      section{background-color: lightyellow;
+      padding: 1rem;}
+      footer{background-color: lightblue;
+      padding: 1rem;}
+      </style>
   </head>
   <body>
-
-      <header>
-        <nav>
-          <a href="hakkimda.html">Hakkımda</a>
-        </nav>
-      </header>
-
-
-      <section><h1>Anasayfa</h1>
-        <p>anasayfaya hoşgeldiniz</p>
-      <footer>
-        <p>tasarım ve kodlama: Buğra Derin</p>
-      </footer>
+         <header class="container">
+              <nav>
+                    <a href="hakkimda.html">Hakkımda</a>
+              </nav>
+        </header>
+                    <section class="container" >
+                                  <h1>Anasayfa</h1>
+                                  <p>anasayfaya hoşgeldiniz</p>
+                    </section>
+                    <section class="container" >
+                                  <h1>Anasayfa</h1>
+                                  <p>anasayfaya hoşgeldiniz</p>
+                    </section>
+                              <footer class="container">
+                                      <p>tasarım ve kodlama: Buğra Derin</p>
+                              </footer>
   </body>
 </html>
